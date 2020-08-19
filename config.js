@@ -1,6 +1,6 @@
 
 const config = {
-    style: "mapbox://styles/paolati/ckcm2lwax18kz1ik9f7n3kaea",
+    style: "mapbox://styles/paolati/ckcdrbphi08jd1jo47fh3b6n9",
     accessToken: "pk.eyJ1IjoicGFvbGF0aSIsImEiOiJja2QxZHc1YXkwYmVxMnpud2JhbThoYmVhIn0.rTRvxjSc-D398zOrFRYILw",
     CSV: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFoz7Ie-mVI0RJoZO0dpr5pzNrOUD-OVHjHuCUQ2s5agOjAXmBa3M5nAwCYAY-3PUzvrR_lE0D4Xnm/pub?output=csv",
     center: [4.8406743, 45.7531474], //Lng, Lat
