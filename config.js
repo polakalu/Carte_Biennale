@@ -17,12 +17,6 @@ const config = {
             listItems: ["Travail","Habitat", "Expression artistique des personnes migrantes","Autre"]
         },
         {
-            type: "checkbox",
-            title: "Type de soirée: ",
-            columnHeader: "Forme",
-            listItems: ["Film", "Conférence", "Théâtre","Table ronde","Concert","Exposition"]
-        },
-        {
             type: "dropdown",
             title: "Département: ",
             columnHeader: "Département",
@@ -37,6 +31,12 @@ const config = {
                 'Rhône',
                 'Savoie'
             ]
+        },
+        {
+            type: "checkbox",
+            title: "Type de soirée: ",
+            columnHeader: "Forme",
+            listItems: ["Film", "Conférence", "Théâtre","Table ronde","Concert","Exposition"]
         }
     ]
 
