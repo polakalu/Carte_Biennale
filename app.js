@@ -479,10 +479,6 @@ filterResults.addEventListener("click", () => {
     modal.classList.add("z5");
 });
 
-exitButton.addEventListener("click", () => {
-    modal.classList.add("hide-visually");
-});
-
 const title = document.getElementById("title");
 title.innerText = config.title;
 const description = document.getElementById("description");
