@@ -80,9 +80,6 @@
     width: 180px;
   }
 
-.mapboxgl-popup-close-button {
-    display: none;
-  }
 
 .mapboxgl-popup-content h3 {
     color:black;
@@ -91,6 +88,3 @@
     display: block;
 
   }
-
-
-  
