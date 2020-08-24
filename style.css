@@ -1,5 +1,5 @@
 #sidebarA{
-    color: white;
+    color: #F45252;
 }
 
 #filterResults{
@@ -10,7 +10,7 @@
 }
 
 .theme{
-    background-color: #2A395F;
+    background-color: #F45252;
 }
 
 .select{
@@ -57,7 +57,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background: #2A395F;
+    background: #F45252;
 }
 
 
