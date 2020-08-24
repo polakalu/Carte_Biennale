@@ -1,6 +1,6 @@
 
 const config = {
-    style: "mapbox://styles/paolati/ckcdrbphi08jd1jo47fh3b6n9",
+    style: "mapbox://styles/paolati/cke8bqy1448cg19ljsleo5877",
     accessToken: "pk.eyJ1IjoicGFvbGF0aSIsImEiOiJja2QxZHc1YXkwYmVxMnpud2JhbThoYmVhIn0.rTRvxjSc-D398zOrFRYILw",
     CSV: "./donnees.csv",
     center: [4.8406743, 45.7531474], //Lng, Lat
