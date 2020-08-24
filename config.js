@@ -6,7 +6,7 @@ const config = {
     center: [4.8406743, 45.7531474], //Lng, Lat
     zoom: 6, //Default zoom
     title: "Biennale Traces",
-    description: "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
+    description: "La Biennale Traces qui aura lieu du 7 octobre au 7 décembre 2020, regroupe une centaine de propositions (conférences, tables rondes, expositions, journées d'études, projections de films, concerts, spectacles). Ces temps, sont portées par une grande diversité d’acteurs, qui tous ont en commun de travailler les questions qui entourent les migrations d’hier et d’aujourd’hui en région Auvergne-Rhône-Alpes : chercheur.euses, artistes, médias, collectifs et associations, lieux et institutions, collectivités territoriales, etc.. ",
     sideBarInfo: ["Soiree","Thematique","Description","Forme","Date","Horaire"],
     popupInfo: ["Soiree"],
     filters: [
