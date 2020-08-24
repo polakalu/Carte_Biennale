@@ -356,7 +356,7 @@ const geocoder = new MapboxGeocoder({
 });
 
 function sortByDistance(selectedPoint) {
-    const options = { units: "Kilometers" };
+    const options = { units: "miles" };
     if (filteredGeojson.features.length > 0) {
         var data = filteredGeojson
     }
@@ -398,7 +398,7 @@ geocoder.on("result", function (ev) {
 });
 
 map.on("load", function () {
-    map.addControl(geocoder, "top-left");
+    map.addControl(geocoder, "top-right");
 
     // csv2geojson - following the Sheet Mapper tutorial https://www.mapbox.com/impact-tools/sheet-mapper
     console.log("loaded");
@@ -472,7 +472,7 @@ map.on("load", function () {
 
 // Modal - popup for filtering results
 const filterResults = document.getElementById("filterResults");
-const checkButton = document.getElementById("checkButton");
+const exitButton = document.getElementById("exitButton");
 const modal = document.getElementById("modal");
 
 filterResults.addEventListener("click", () => {
@@ -480,7 +480,7 @@ filterResults.addEventListener("click", () => {
     modal.classList.add("z5");
 });
 
-checkButton.addEventListener("click", () => {
+exitButton.addEventListener("click", () => {
     modal.classList.add("hide-visually");
 });
 
@@ -488,7 +488,3 @@ const title = document.getElementById("title");
 title.innerText = config.title;
 const description = document.getElementById("description");
 description.innerText = config.description;
-
-// Navigation :zoom in and out
-var nav = new mapboxgl.NavigationControl();
-map.addControl(nav, 'top-right');
