@@ -79,8 +79,9 @@
     padding: 5;
     width: 180px;
   }
-
-
+.mapboxgl-popup-close-button {
+      display: none;
+    }
 .mapboxgl-popup-content h3 {
     color:black;
     font-weight: 500;
