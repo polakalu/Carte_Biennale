@@ -5,12 +5,12 @@
 #filterResults{
     font-size: 12px;
     color: white;
-    background-color: #f35454;
+    background-color: #448EE4;
 
 }
 
 .theme{
-    background-color: #f35454;
+    background-color: #2A395F;
 }
 
 .select{
@@ -37,7 +37,7 @@
 .listings .item .title {
     display: inline-block;
     width: 100%;
-    color: #f35454;
+    color: #2A395F;
     font-weight: 800;
     margin-top: 5px;
     text-decoration: none;
@@ -57,7 +57,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background: #f35454;
+    background: #2A395F;
 }
 
 
@@ -79,9 +79,11 @@
     padding: 5;
     width: 180px;
   }
+
 .mapboxgl-popup-close-button {
-      display: none;
-    }
+    display: none;
+  }
+
 .mapboxgl-popup-content h3 {
     color:black;
     font-weight: 500;
