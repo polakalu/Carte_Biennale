@@ -472,7 +472,7 @@ map.on("load", function () {
 
 // Modal - popup for filtering results
 const filterResults = document.getElementById("filterResults");
-const exitButton = document.getElementById("exitButton");
+const checkButton = document.getElementById("checkButton");
 const modal = document.getElementById("modal");
 
 filterResults.addEventListener("click", () => {
@@ -480,7 +480,7 @@ filterResults.addEventListener("click", () => {
     modal.classList.add("z5");
 });
 
-exitButton.addEventListener("click", () => {
+checkButton.addEventListener("click", () => {
     modal.classList.add("hide-visually");
 });
 
