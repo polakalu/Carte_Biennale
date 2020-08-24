@@ -10,7 +10,7 @@
 }
 
 .theme{
-    background-color: #2A395F;
+    background-color: #f35454;
 }
 
 .select{
@@ -37,7 +37,7 @@
 .listings .item .title {
     display: inline-block;
     width: 100%;
-    color: #2A395F;
+    color: #f35454;
     font-weight: 800;
     margin-top: 5px;
     text-decoration: none;
