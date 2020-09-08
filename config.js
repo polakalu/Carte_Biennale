@@ -36,7 +36,7 @@ const config = {
             type: "checkbox",
             title: "Type de soirée: ",
             columnHeader: "Forme",
-            listItems: ["Film", "Conférence", "Théâtre","table ronde","Concert","Exposition","débat"]
+            listItems: ["Film", "Conférence", "Théâtre","table ronde","Concert","Exposition","Débat","Rencontre"]
         }
     ]
 
