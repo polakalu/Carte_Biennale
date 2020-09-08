@@ -2,7 +2,7 @@
 const config = {
     style: "mapbox://styles/paolati/ckecjrk222ai61amvhjgt21va",
     accessToken: "pk.eyJ1IjoicGFvbGF0aSIsImEiOiJja2QxZHc1YXkwYmVxMnpud2JhbThoYmVhIn0.rTRvxjSc-D398zOrFRYILw",
-    CSV: "./PROGRAMME.csv",
+    CSV: "./PROGRAMME3.csv",
     center: [4.8406743, 45.7531474], //Lng, Lat
     zoom: 6, //Default zoom
     title: "Biennale Traces",
