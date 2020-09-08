@@ -454,7 +454,7 @@ map.on("load", function () {
                                     ["20 ans"],
                                     "purple",
                                     ["Frontières"],
-                                    "Black"
+                                    "Black",
                                     "#504da8"
                                 ],
                     "circle-stroke-color": "white",
