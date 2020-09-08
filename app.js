@@ -459,7 +459,7 @@ map.on("load", function () {
                                 ],
                     "circle-stroke-color": "white",
                     "circle-stroke-width": 1,
-                    "circle-opacity": 0.7
+                    "circle-opacity": 0.9
                 }
 
             });
