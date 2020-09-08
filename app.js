@@ -440,7 +440,19 @@ map.on("load", function () {
                 },
                 "paint": {
                     "circle-radius": 5, // size of circles
-                    "circle-color": "#3D2E5D", // color of circles
+                    "circle-color": [
+                                    "match",
+                                    ["get", "Thematique"],
+                                    ["Habitat"],
+                                    "blue",
+                                    ["Travail"],
+                                    "yellow",
+                                    ["Exprpession artistique des personnes migrantes"],
+                                    "red",
+                                    ["Santé mentale"],
+                                    "green",
+                                    "#504da8"
+                                ],
                     "circle-stroke-color": "white",
                     "circle-stroke-width": 1,
                     "circle-opacity": 0.7
