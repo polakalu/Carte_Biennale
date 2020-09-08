@@ -33,10 +33,21 @@ const config = {
             ]
         },
         {
-            type: "checkbox",
-            title: "Type de soirée: ",
+            type: "dropdown",
+            title: "Forme: ",
             columnHeader: "Forme",
-            listItems: ["Film", "Conférence", "Théâtre","table ronde","Concert","Exposition","Débat","Rencontre"]
+            listItems: [
+                'Projection',
+                'Concert',
+                'Conférence / Table ronde',
+                'Danse / Performance',
+                'Exposition',
+                'Littérature / Poésie',
+                'Théâtre',
+                'Visite commentée',
+                'Atelier / Formation',
+                'Autre'
+            ]
         }
     ]
 
