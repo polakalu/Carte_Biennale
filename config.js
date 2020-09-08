@@ -14,7 +14,7 @@ const config = {
             type: "checkbox",
             title: "Thematique : ",
             columnHeader: "Thematique",
-            listItems: ["Travail","Habitat", "Expression artistique des personnes migrantes",]
+            listItems: ["Travail","Habitat", "Expression artistique des personnes migrantes","20 ans"]
         },
         {
             type: "dropdown",
