@@ -4,13 +4,13 @@
 
 #filterResults{
     font-size: 12px;
-    color: #162543;
-    background-color: #ffed99;
+    color: white;
+    background-color: #162543;
 
 }
 
 .theme{
-    background-color: #ffed99;
+    background-color: #162543;
 }
 
 .select{
@@ -57,7 +57,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background: #ffed99;
+    background: #162543;
 }
 
 
