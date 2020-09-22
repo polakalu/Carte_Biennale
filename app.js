@@ -32,7 +32,8 @@ if (currentFeature.properties[config.popupWeb]){
 const site = empt;
 /** Text in the popup */
 const informations =`<h3>` + currentFeature.properties[config.sideBarInfo[0]] + '<br>'
-                    + currentFeature.properties[config.sideBarInfo[1]] + 'à' + currentFeature.properties[config.sideBarInfo[4]] + '<br>'
+                    + currentFeature.properties[config.sideBarInfo[1]] + '<br>'
+                    + currentFeature.properties[config.sideBarInfo[4]] + '<br>'
                     + currentFeature.properties[config.sideBarInfo[2]] + '<br>'
                     + currentFeature.properties[config.sideBarInfo[3]] + '<br>' `</h3>`
                     + `<h4>`+ currentFeature.properties[config.sideBarInfo[5]] + `</h4>`
