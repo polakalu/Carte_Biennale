@@ -7,10 +7,22 @@ const config = {
     zoom: 7, //Default zoom
     title: "Biennale Traces",
     description: "La Biennale Traces qui aura lieu du 7 octobre au 7 décembre 2020, regroupe une centaine de propositions (conférences, tables rondes, expositions, journées d'études, projections de films, concerts, spectacles). Ces temps, sont portées par une grande diversité d’acteurs, qui tous ont en commun de travailler les questions qui entourent les migrations d’hier et d’aujourd’hui en région Auvergne-Rhône-Alpes : chercheur.euses, artistes, médias, collectifs et associations, lieux et institutions, collectivités territoriales, etc.. ",
-    sideBarInfo: ["Titre","Dates","Thematique","Forme","Description"],
+    sideBarInfo: ["Titre","Dates","Thematique","Forme","Dates","Horaire","Description"],
     popupInfo: ["Titre"],
     popupDescrip:["Description"],
     filters: [
+        {
+            type: "dropdown",
+            title: "Thematique : ",
+            columnHeader: "Thematique",
+            listItems: ["Travail",
+                        "Habitat",
+                        "Expression artistique des personnes migrantes",
+                        "20 ans du réseau Traces",
+                        "Hospitalité",
+                        "Frontières",
+                        "Histoire coloniale"]
+        },
         {
             type: "dropdown",
             title: "Département: ",
