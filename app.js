@@ -23,7 +23,7 @@ function flyToLocation(currentFeature, zoom) {
 
 function createPopup(currentFeature) {
     const popups = document.getElementsByClassName("mapboxgl-popup");
-    /** Check if there is already a popup on the map and if so, remove it */
+    /** Check if there is already a popup on the map and if so, remove it **/
     if (popups[0]) popups[0].remove();
     const popup = new mapboxgl.Popup({ closeOnClick: true })
         .setLngLat(currentFeature.geometry.coordinates)
