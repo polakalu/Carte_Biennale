@@ -13,19 +13,6 @@ const config = {
     filters: [
         {
             type: "dropdown",
-            title: "Thematique : ",
-            columnHeader: "Thematique",
-            listItems: ["Travail",
-                        "Habitat",
-                        "Expression artistique des personnes migrantes",
-                        "20 ans du réseau Traces",
-                        "Hospitalité",
-                        "Frontières",
-                        "Santé mentale",
-                        "Histoire coloniale"]
-        },
-        {
-            type: "dropdown",
             title: "Département: ",
             columnHeader: "Département",
             listItems: [
@@ -56,7 +43,7 @@ const config = {
                 'Atelier / Formation',
                 'Autre'
             ]
-        }
+        },
         {
             type: "dropdown",
             title: "Dates: ",
