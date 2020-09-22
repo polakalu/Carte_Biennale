@@ -57,10 +57,6 @@ const config = {
             title: "Dates: ",
             columnHeader: "Semaine du",
             listItems: [
-              'Semaine du 07 septembre',
-              'Semaine du 14 septembre',
-              'Semaine du 21 septembre',
-              'Semaine du 28 septembre',
               'Semaine du 05 octobre',
               'Semaine du 12 octobre',
               'Semaine du 19 octobre',
