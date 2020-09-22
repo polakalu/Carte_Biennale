@@ -35,7 +35,7 @@ const informations =`<h3>` + currentFeature.properties[config.sideBarInfo[0]] + 
                     + currentFeature.properties[config.sideBarInfo[1]] + '<br>'
                     + currentFeature.properties[config.sideBarInfo[4]] + '<br>'
                     + currentFeature.properties[config.sideBarInfo[2]] + '<br>'
-                    + currentFeature.properties[config.sideBarInfo[3]] + '<br>' `</h3>`
+                    + currentFeature.properties[config.sideBarInfo[3]] + '<br>' + `</h3>`
                     + `<h4>`+ currentFeature.properties[config.sideBarInfo[5]] + `</h4>`
                     + site;
 /** Check if there is already a popup on the map and if so, remove it */
