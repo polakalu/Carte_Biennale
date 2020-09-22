@@ -23,12 +23,15 @@ function flyToLocation(currentFeature, zoom) {
 
 function createPopup(currentFeature) {
     const popups = document.getElementsByClassName("mapboxgl-popup");
-    /** Check if there is already a popup on the map and if so, remove it */
+    /** Text in the popup */
+    const informations =`<h3>` + currentFeature.properties[config.popupNom] + `</h3>`+`<h4>`+ currentFeature.properties[config.popupDescrip] + `</h4>`+ `<h4>` + currentFeature.properties[config.popupWeb] + `</h4>`;
+
+  /** Check if there is already a popup on the map and if so, remove it */
     if (popups[0]) popups[0].remove();
     const popup = new mapboxgl.Popup({ closeOnClick: true })
-        .setLngLat(currentFeature.geometry.coordinates)
-        .setHTML("<h3>" + currentFeature.properties[config.popupInfo] + "</h3>")
-        .addTo(map);
+      .setLngLat(currentFeature.geometry.coordinates)
+      .setHTML(informations)
+      .addTo(map);
 }
 
 function buildLocationList(locationData) {
