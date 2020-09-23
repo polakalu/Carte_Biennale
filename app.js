@@ -27,12 +27,12 @@ const popups = document.getElementsByClassName("mapboxgl-popup");
 /** site web **/
 let empt = ""
 if (currentFeature.properties[config.popupWeb]){
-  empt = '<div class="flex-parent flex-parent--center-main"><button class="btn btn--#dd520"><a href="'+ currentFeature.properties[config.popupWeb]
+  empt = '<div class="flex-parent flex-parent--center-main"><button class="btn btn--stroke btn--plus"><a href="'+ currentFeature.properties[config.popupWeb]
   +'" target="_blank" rel="noopener noreferrer" > En savoir + </a></button></div><br>';}
 const site = empt;
 /** Text in the popup */
 const informations =`<h3>` + currentFeature.properties[config.popupNom] + '</h3>'
-                    +'<h4>' + currentFeature.properties[config.popupDescrip] +`</h4>`
+                    +'<h4>' + currentFeature.properties[config.popupDescrip] + `</h4>`
                     + site;
 /** Check if there is already a popup on the map and if so, remove it */
 if (popups[0]) popups[0].remove();

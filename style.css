@@ -84,20 +84,24 @@
     display: none;
   }
 
-  .mapboxgl-popup-content h3 {
-      background: rgb(218, 165, 32);
-      text-align: center;
-      color: #fff;
-      margin: 0;
-      display: block;
-      padding: 15px;
-      font-weight: 700;
-      margin-top: -5px;
+.mapboxgl-popup-content h3 {
+    background: rgb(218, 165, 32);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    display: block;
+    padding: 15px;
+    font-weight: 700;
+    margin-top: -5px;
     }
 
-  .mapboxgl-popup-content h4 {
+.mapboxgl-popup-content h4 {
       margin: 0;
       display: block;
       padding: 10px 3px 10px 10px;
       font-weight: 400;
     }
+
+.btn--plus {
+    color: #daa520
+}
