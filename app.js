@@ -31,12 +31,8 @@ if (currentFeature.properties[config.popupWeb]){
   +'" target="_blank" rel="noopener noreferrer" > En savoir + </a></button></div><br>';}
 const site = empt;
 /** Text in the popup */
-const informations =`<h3>` + currentFeature.properties[config.sideBarInfo[0]] + '<br></h3>'
-                    +'<h4><b>' + currentFeature.properties[config.sideBarInfo[1]] + '</b><br>'
-                    + currentFeature.properties[config.sideBarInfo[4]] + '<br>'
-                    + currentFeature.properties[config.sideBarInfo[2]] + '<br>'
-                    + currentFeature.properties[config.sideBarInfo[3]] + '<br>' +
-                    + currentFeature.properties[config.sideBarInfo[5]] + `</h4>`
+const informations =`<h3>` + currentFeature.properties[config.popupNom] + '</h3>'
+                    +'<h4>' + currentFeature.properties[config.popupDescrip] +`</h4>`
                     + site;
 /** Check if there is already a popup on the map and if so, remove it */
 if (popups[0]) popups[0].remove();
