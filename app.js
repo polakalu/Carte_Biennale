@@ -452,7 +452,7 @@ map.on("load", function () {
                     "data": geojsonData
                 },
                 "paint": {
-                    "circle-radius": 5.3, // size of circles
+                    "circle-radius": 6, // size of circles
                     "circle-color": [
                                     "match",
                                     ["get", "Thematique"],
