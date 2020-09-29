@@ -32,7 +32,9 @@ if (currentFeature.properties[config.popupWeb]){
 const site = empt;
 /** Text in the popup */
 const informations =`<h3>` + currentFeature.properties[config.popupNom] + '</h3>'
-                    +'<h4>' + currentFeature.properties[config.popupDescrip] + `</h4>`
+                    +'<h4><br>'+ currentFeature.properties[config.popupDates] + '<br>'
+                    + currentFeature.properties[config.popupForme] + '<br>'
+                    + currentFeature.properties[config.popupDescrip] + '</h4>'
                     + site;
 /** Check if there is already a popup on the map and if so, remove it */
 if (popups[0]) popups[0].remove();
