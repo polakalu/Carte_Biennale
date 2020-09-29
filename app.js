@@ -32,7 +32,7 @@ if (currentFeature.properties[config.popupWeb]){
 const site = empt;
 /** Text in the popup */
 const informations =`<h3>` + currentFeature.properties[config.popupNom] + '<br></h3>'
-                    +'<h4>' + currentFeature.properties[config.popupDates] + '<br>'
+                    +'<h4><b>' + currentFeature.properties[config.popupDates] + '</b><br>'
                     + currentFeature.properties[config.popupForme] + '<br>'
                     + currentFeature.properties[config.popupDescrip] + `</h4>`
                     + site
