@@ -7,7 +7,7 @@ const config = {
     zoom: 7, //Default zoom
     title: "Biennale Traces",
     description: "La Biennale Traces qui aura lieu du 7 octobre au 7 décembre 2020, regroupe environ 150 propositions (conférences, tables rondes, expositions, journées d'études, projections de films, concerts, spectacles). Cette carte interactive vous permet de découvrir ce riche programme selon différentes entrées : territoriale, chronologique ou thématique.",
-    sideBarInfo: ["Titre"],
+    sideBarInfo: ["Titre,Dates,Forme"],
     popupNom: ["Titre"],
     popupDates:["Dates"],
     popupForme:["Forme"],
